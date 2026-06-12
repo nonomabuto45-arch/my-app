@@ -21,13 +21,18 @@ export default function Home() {
             </p>
             
             <div className="flex flex-wrap gap-4 mb-12">
-              <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-semibold hover:opacity-90 transition">
-                View My Work
+              <Link href="/showcase-reel">
+                <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-semibold...">
+                  View My Work
+                </button>
+              </Link>
+              <Link href="/get-in-touch">
+               <button className="px-8 py-3 border border-gray-700 rounded-full font-semibold hover:bg-gray-900...">
+                 Get In Touch
               </button>
-              <button className="px-8 py-3 border border-gray-700 rounded-full font-semibold hover:bg-gray-900 transition">
-                Get In Touch
-              </button>
-            </div>
+             </Link>
+           </div>
+        
             
             <div className="flex gap-8 text-sm text-gray-500">
               <a href="#" className="hover:text-white transition">GitHub</a>
